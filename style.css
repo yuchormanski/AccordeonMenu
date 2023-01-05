@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    overflow-y: scroll;
+}
+
+#menu ul {
+    width: 800px;
+    
+}
+
+#menu li {
+    list-style: none;
+    display: inline;
+}
+
+a {
+    display: inline-block;  
+    width: 120px;
+    height: 30px;
+    border: 1px solid #2f2e2e;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    color: #2f2e2e;
+}
+
+
+#rowTwo {
+    display:none;
+    position: absolute;
+    margin: 0px 0 0 -40px;
+}
+#rowTwo a{
+    width: 120px;
+    background-color: aqua;
+    display:block;
+}
+
