@@ -32,7 +32,9 @@ a {
 }
 #rowTwo a{
     width: 120px;
-    background-color: aqua;
+    /* background-color: aqua; */
     display:block;
+    border:none;
+    color: red;
 }
 

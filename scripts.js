@@ -1,9 +1,21 @@
 function reveal() {
-    let view = document.querySelector('#rowTwo');
-    if (view.style.display === 'none') {
-        view.style.display = 'block';
-    } else{
-        view.style.display = 'none';
+
+    const menu = document.getElementById('menu');
+    const view = document.querySelector('#rowTwo');
+    menu.addEventListener('mousedown', displayBloc);
+    menu.addEventListener('mouseup', openMenu);
+
+    function displayBloc(event) {
+        if (view.style.display === 'block') {
+            view.style.display = 'none';
+        } else {
+            view.style.display = 'block';
+        }
+
+    }
+    function openMenu(event) {
+        view.style.color = 'black'
+
     }
 
 }
